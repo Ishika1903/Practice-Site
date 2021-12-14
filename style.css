@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.whole {
+  background-color: #96a99c;
+  position: relative;
+  width: 100%;
+  border: #96a99c;
+}
+#image {
+  border-radius: 50%;
+  width: 200px;
+  height: 209px;
+  position: relative;
+  display: inline;
+  margin-left: 1%;
+  margin-top: 25px;
+}
+
+.head {
+  text-align: center;
+}
+
+#heading {
+  font-family: "Playfair Display", serif;
+  color: white;
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 35px;
+}
+
+#text {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+#name,
+#add,
+#email,
+#message {
+  background-color: white;
+  padding: 15px 15px 15px 15px;
+  border-color: white;
+  width: 300px;
+}
+
+#name {
+  margin-left: 250px;
+}
+
+#add {
+  margin-left: 15px;
+}
+
+#email {
+  margin-left: 15px;
+}
+#message {
+  margin-left: 250px;
+  width: 1007px;
+  height: 80px;
+  text-align: left;
+}
+
+#submit {
+  color: black;
+  background-color: white;
+  border-color: white;
+  width: 95px;
+  height: 35px;
+  text-align: center;
+}
+
+#terms {
+  margin-left: 250px;
+}
+
+.tnc {
+  display: inline;
+}
+#submit {
+  margin-left: 250px;
+}
+
+#footer {
+  background-color: #333333;
+  height: 30px;
+  text-align: center;
+  padding: 55px;
+}
+
+span a{ 
+    color: #adcce9;
+}
+
+span a:hover{ 
+    color:grey;
+    text-decoration: none;
+}
+
+
+
+
+
+@media only screen and (max-width:400px) {
+    body{ 
+        width: 100%;
+    }
+    .head{ 
+        font-size: 25px;
+    }
+    
+}
